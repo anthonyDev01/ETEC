@@ -32,7 +32,7 @@ button.addEventListener("click", function click(e){
               dog.src = "img/dogright.gif";
     
               clearInterval(intervalTras);
-              mover();
+              click();
             }
           }
           else { 
