@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#link1").click(function () {
+        alert("Link funcionado! Alerta criado atraves do jQuery")
+      })
+
+      $("#b1").click(function () {
+        $("body").css("background-color", "blue")
+      })
+
+      $("#b2").click(function () {
+        $("body").css("background-color", "red")
+      })
+
+      $("#b3").click(function () {
+        $("body").css("background-color", "green")
+      })
+    })
+
+    function clicar() {
+      alert("Link funcionado! Alerta criado atraves do JS")
+    }
+
+  </script>
+</head>
+
+<body>
+  <p><a id="link1" href="#">clique aqui</a></p>
+  <p><a onclick="clicar()" href="#">clique aqui2</a></p>
+
+  <button id="b1">mudar cor1</button>
+  <button id="b2">mudar cor2</button>
+  <button id="b3">mudar cor3</button>
+</body>
+
+</html>
