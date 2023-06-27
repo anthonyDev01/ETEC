@@ -1,0 +1,31 @@
+.navbar{
+    margin-bottom: 80px;
+}
+
+.ultra{
+    color: rgb(240, 218, 24);
+    font-weight: bold;
+}
+.mega{
+    color: orange;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.blaster{
+    color: orangered;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.viagens{
+    color: red;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.ultimate{
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+}

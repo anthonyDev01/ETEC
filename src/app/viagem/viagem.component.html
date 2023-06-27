@@ -1,0 +1,39 @@
+<div class="card"  style="width: 30rem" [ngStyle]="{ 'background-image': 'url(' + imagemUrl + ')' }">
+  <div class="card-body">
+    <h5 class="card-title">Acapuco</h5>
+    <table class="table ">
+      <thead >
+        <tr>
+          <th scope="col">Destino</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Data de Chegada</th>
+          <th scope="col">Data de Saida</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">Acapuco</td>
+          <td>LAZER</td>
+          <td>20/06/2024</td>
+          <td>27/06/2024</td>
+        </tr>
+        <tr>
+          <td scope="row">Rio Tiete</td>
+          <td>LAZER</td>
+          <td>30/04/2024</td>
+          <td>17/06/2024</td>
+        </tr>
+        <tr>
+          <td scope="row">Bahia</td>
+          <td>LAZER</td>
+          <td>02/01/2025</td>
+          <td>23/02/2025</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="btnContainer">
+      <a routerLink="/detalhes" class="btn btn-primary">Detalhes</a>
+      <a routerLink="/apagar" class="btn btn-warning">Excluir</a>
+    </div>
+  </div>
+</div>
