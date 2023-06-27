@@ -1,0 +1,24 @@
+.card{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  margin: 0.5rem 2rem;
+  
+}
+
+.table{
+    --bs-table-bg: transparent;
+    --bs-table-border-color: black
+  }
+  
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer a{
+    width: 8rem;
+    margin-left: 20px;
+}
